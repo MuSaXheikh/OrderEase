@@ -1,0 +1,143 @@
+:root
+{
+    --primarycolor: rgb(172, 2, 2);
+    --secondarycolor: rgb(219, 147, 12);
+    --whitecolour:#fff;
+    --blackcolour:#000;
+    --softCoIor :#302f30;
+    --darkGreyC010r: #a7a7a7 ;
+    --greyC010r : #e0dddd ;
+}
+
+:root
+{
+    --tile2: rgb(255, 108, 108);
+    --tile4:  #ff4545 ;
+    --tile8: rgb(245, 17, 17) ;
+    --tile16: rgb(219, 0, 0) ;
+    --tile32: rgb(155, 0, 0) ;
+    --tile64: rgb(114, 0, 0) ;
+    --tile128: rgb(99, 0, 0) ;
+    --tile256: rgb(255, 230, 0) ;
+    --tile512: rgb(201, 187, 2) ;
+    --tile1024: rgb(164, 167, 0) ;
+    --tile2048: rgb(148, 138, 0) ;
+    --tile4096: rgb(77, 78, 0) ;
+    --tile8192: rgb(0, 0, 0) ;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    Outline: none;
+    font-family:"open sans" , sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: var(--softCoIor);
+}
+
+hr {
+    width: 80%;
+    margin-left:10% ;
+    margin-right: 10%;
+    /* margin: 20svh; */
+    /* text-align: ; */
+}
+
+#board {
+    width: 372px;
+    height: 372px;
+
+    background-color: var(--darkGreyC010r);
+    border: 6px solid var(--primarycolor);
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid var(--primarycolor);
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* colored tiles */
+
+.x2 {
+    background-color: var(--tile2);
+    color: #727371;
+}
+
+.x4 {
+    background-color: var(--tile4);
+    color: #727371;
+}
+
+.x8 {
+    background-color: var(--tile8);
+    color: white;
+}
+
+.x16{
+    background-color: var(--tile16);
+    color: white;
+}
+
+.x32{
+    background-color: var(--tile32);
+    color: white;
+}
+
+.x64{
+    background-color: var(--tile64);
+    color: white;
+}
+
+.x128{
+    background-color: var(--tile128);
+    color: white;
+}
+
+.x256{
+    background-color: var(--tile256);
+    color: white;
+}
+
+.x512{
+    background-color: var(--tile512);
+    color: white;
+}
+
+.x1024{
+    background-color: var(--tile1024);
+    color: white;
+}
+
+.x2048{
+    background-color: var(--tile2048);
+    color: white;
+}
+
+.x4096 {
+    background-color: var(--tile4096);
+    color: white;
+}
+
+.x8192 {
+    background-color: var(--tile8192);
+    color: white;
+}
